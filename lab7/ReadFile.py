@@ -2,14 +2,14 @@ import random
 from collections import Counter
 
 
-words_list = ['apple', 'banana', 'orange', 'grape', 'kiwi', 'mango', 'pineapple', 'pear', 'peach', 'cherry']
+words_list = ['mersedes', 'bmw', 'opel', 'kia', 'optima', 'bugatti', 'lamborghini', 'man', 'woman', 'child']
 
-with open('example.txt', 'w') as file:
+with open('file.txt', 'w') as file:
     for _ in range(100):
         word = random.choice(words_list) 
         file.write(word + ' ') 
 
-with open('example.txt', 'r') as file:
+with open('file.txt', 'r') as file:
     content = file.read()
 
 
